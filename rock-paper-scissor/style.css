@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body, h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic page styling */
+body {
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background: #ffffff;
+    border-radius: 10%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading styling */
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Game section styling */
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.choice {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.choice img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.choice:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Result section styling */
+#result {
+    margin-top: 20px;
+}
+
+#result h2 {
+    color: #666;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#result p {
+    font-size: 1.2em;
+    color: #333;
+    background: orange;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#score {
+    margin-top: 10px;
+}
+
+#score h2 {
+    color: #666;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#s1{
+    font-size: 1.2em;
+    color: #333;
+    background: orange;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#s2{
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+    background: orange;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
